@@ -1,0 +1,7 @@
+org/meetup/notifier/integration/RedisIntegrationTest.class
+org/meetup/notifier/restclient/MeetupServiceRestClientTest.class
+org/meetup/notifier/integration/ElasticsearchIntegrationTest.class
+org/meetup/notifier/integration/ElasticsearchIntegrationTest$Initializer.class
+org/meetup/notifier/integration/RedisIntegrationTest$Initializer.class
+org/meetup/notifier/autoconfigure/MeetupServiceAutoConfigurationTest.class
+org/meetup/notifier/restclient/MeetupServiceRestClientTest$Config.class

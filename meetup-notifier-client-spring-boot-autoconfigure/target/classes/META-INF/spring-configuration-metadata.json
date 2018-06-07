@@ -1,0 +1,22 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "org.meetup.notifier.auto.configure.configuration.RemoteMeetupApiConfigurationProperties",
+      "name": "meetup.api",
+      "type": "org.meetup.notifier.auto.configure.configuration.RemoteMeetupApiConfigurationProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "org.meetup.notifier.auto.configure.configuration.RemoteMeetupApiConfigurationProperties",
+      "name": "meetup.api.root-uri",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.meetup.notifier.auto.configure.configuration.RemoteMeetupApiConfigurationProperties",
+      "name": "meetup.api.token",
+      "type": "java.lang.String"
+    }
+  ]
+}

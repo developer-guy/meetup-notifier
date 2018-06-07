@@ -1,0 +1,13 @@
+org/meetup/notifier/client/service/RemoteMeetupApiService.class
+org/meetup/notifier/client/dto/GroupDTO.class
+org/meetup/notifier/client/dto/deserializer/JoinModeDeserializer.class
+org/meetup/notifier/client/dto/Status.class
+org/meetup/notifier/client/service/MeetupService.class
+org/meetup/notifier/client/dto/deserializer/StatusDeserializer.class
+org/meetup/notifier/client/dto/CityDTO.class
+org/meetup/notifier/client/dto/deserializer/VisibilityDeserializer.class
+org/meetup/notifier/client/dto/JoinMode.class
+org/meetup/notifier/client/dto/UpcomingEventSchedule.class
+org/meetup/notifier/client/dto/Visibility.class
+org/meetup/notifier/client/dto/VenueDTO.class
+org/meetup/notifier/client/dto/EventDTO.class
