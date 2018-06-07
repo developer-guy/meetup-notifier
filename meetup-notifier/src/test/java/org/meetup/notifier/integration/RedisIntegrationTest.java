@@ -41,13 +41,6 @@ public class RedisIntegrationTest {
             );
             values.applyTo(configurableApplicationContext);
         }
-
-
-
-
-
-
-
     }
 
     @Autowired
