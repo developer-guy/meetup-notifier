@@ -7,4 +7,5 @@ import org.springframework.data.repository.CrudRepository;
  * @author Batuhan Apaydın
  */
 public interface EventRepository extends CrudRepository<Event, String> {
+    Event findByName(String name);
 }

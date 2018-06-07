@@ -1,4 +1,4 @@
-package org.meetup.notifier;
+package org.meetup.notifier.restclient;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -28,7 +28,7 @@ import org.springframework.test.web.client.response.MockRestResponseCreators;
 public class MeetupServiceRestClientTest {
 
     @Autowired
-    private MeetupService remoteMeetupApiService;
+    private MeetupService meetupService;
 
     @Autowired
     private MockRestServiceServer serviceServer;
@@ -40,17 +40,11 @@ public class MeetupServiceRestClientTest {
     static class Config {
 
         @Bean
-        public MeetupService remoteMeetupService(RestTemplateBuilder builder) {
+        public MeetupService meetupService(RestTemplateBuilder builder) {
             return new RemoteMeetupApiService(builder.build());
         }
-
-        @Bean
-        public ObjectMapper objectMapper() {
-            return new ObjectMapper();
-        }
     }
-
-
+    
     @Test
     public void findUpComingEventsWhenResultIsSuccessShouldReturnSchedule() throws JsonProcessingException {
         //arrange
@@ -60,7 +54,7 @@ public class MeetupServiceRestClientTest {
         this.serviceServer
                 .expect(MockRestRequestMatchers.requestTo("/find/upcoming_events"))
                 .andRespond(MockRestResponseCreators.withSuccess(mockBodyAsJson, MediaType.APPLICATION_JSON));
-        UpcomingEventSchedule upcomingEventSchedule = this.remoteMeetupApiService.findUpComingEvents();
+        UpcomingEventSchedule upcomingEventSchedule = this.meetupService.findUpComingEvents();
         //assert
         Assertions.assertThat(upcomingEventSchedule).isNotNull();
     }

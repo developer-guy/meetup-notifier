@@ -1,4 +1,4 @@
-package org.meetup.notifier;
+package org.meetup.notifier.autoconfigure;
 
 import org.junit.Test;
 import org.meetup.notifier.auto.configure.configuration.MeetupApiAutoConfiguration;

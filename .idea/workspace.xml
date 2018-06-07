@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="26502952-2a9c-4dac-9590-4f4044ae2edf" name="Default" comment="" />
+    <list default="true" id="26502952-2a9c-4dac-9590-4f4044ae2edf" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meetup-notifier-client-spring-boot-autoconfigure/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/meetup-notifier-client-spring-boot-autoconfigure/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meetup-notifier/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/meetup-notifier/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meetup-notifier/src/main/java/org/meetup/notifier/configuration/ElasticSearchConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/meetup-notifier/src/main/java/org/meetup/notifier/configuration/ElasticSearchConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meetup-notifier/src/main/java/org/meetup/notifier/configuration/ElasticSearchConfigurationProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meetup-notifier/src/main/java/org/meetup/notifier/configuration/RedisConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/meetup-notifier/src/main/java/org/meetup/notifier/configuration/RedisConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meetup-notifier/src/main/java/org/meetup/notifier/configuration/RedisConfigurationProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meetup-notifier/src/main/java/org/meetup/notifier/data/redis/document/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/meetup-notifier/src/main/java/org/meetup/notifier/data/redis/document/Event.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meetup-notifier/src/main/java/org/meetup/notifier/data/redis/repository/EventRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/meetup-notifier/src/main/java/org/meetup/notifier/data/redis/repository/EventRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meetup-notifier/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/meetup-notifier/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meetup-notifier/src/test/java/org/meetup/notifier/MeetupServiceAutoConfigurationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/meetup-notifier/src/test/java/org/meetup/notifier/autoconfigure/MeetupServiceAutoConfigurationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meetup-notifier/src/test/java/org/meetup/notifier/MeetupServiceRestClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/meetup-notifier/src/test/java/org/meetup/notifier/restclient/MeetupServiceRestClientTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meetup-notifier/src/test/java/org/meetup/notifier/RedisIntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/meetup-notifier/src/test/java/org/meetup/notifier/integration/RedisIntegrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meetup-notifier/src/test/resources/application-test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/meetup-notifier-client/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/meetup-notifier-client-auto-configure/target/" />
@@ -20,17 +37,23 @@
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/meetup_notifier_parent$RedisIntegrationTest.ic" NAME="RedisIntegrationTest Coverage Results" MODIFIED="1528266865802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/meetup_notifier_parent$RedisIntegrationTest_shouldRedisConfigurationSuccesfullyConfigured.ic" NAME="RedisIntegrationTest.shouldRedisConfigurationSuccesfullyConfigured Coverage Results" MODIFIED="1528283742507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.meetup.notifier.integration.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/meetup_notifier_parent$RedisIntegrationTest.ic" NAME="RedisIntegrationTest Coverage Results" MODIFIED="1528283123510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>org.meetup.notifier.*</FILTER>
     </SUITE>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="meetup-notifier-parent" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SchedulerConfigurationSupport.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/meetup-notifier/src/main/java/org/meetup/notifier/configuration/SchedulerConfigurationSupport.java">
+      <file leaf-file-name="RedisIntegrationTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/meetup-notifier/src/test/java/org/meetup/notifier/integration/RedisIntegrationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="21" column="58" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
+            <state relative-caret-position="-210">
+              <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -38,32 +61,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EventIndex.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/meetup-notifier/src/main/java/org/meetup/notifier/data/elasticsearch/document/EventIndex.java">
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/meetup-notifier/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="220">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EventIndexRepository.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/meetup-notifier/src/main/java/org/meetup/notifier/data/elasticsearch/repository/EventIndexRepository.java">
+      <file leaf-file-name="MeetupServiceRestClientTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/meetup-notifier/src/test/java/org/meetup/notifier/restclient/MeetupServiceRestClientTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UpdateRedisCacheWithUpcomingEventScheduleJob.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/meetup-notifier/src/main/java/org/meetup/notifier/scheduler/UpdateRedisCacheWithUpcomingEventScheduleJob.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+            <state relative-caret-position="372">
+              <caret line="46" column="4" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContextConfiguration.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.0.4.RELEASE/spring-test-5.0.4.RELEASE-sources.jar!/org/springframework/test/context/ContextConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1624">
+              <caret line="89" column="18" selection-start-line="89" selection-start-column="18" selection-end-line="89" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="233">
+              <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -91,22 +123,23 @@
       <find>starter-data-re</find>
       <find>MeetupApi</find>
       <find>MeetupApiCo</find>
+      <find>withExposedPorts</find>
+      <find>withExposedPorts&quot;</find>
+      <find>spring-boot-configuration-processor</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/meetup-notifier-client-spring-boot-autoconfigure/src/main/java/org/meetup/notifier/auto/configure/configuration/builde/MeetupServiceBuilder.java" />
-        <option value="$PROJECT_DIR$/meetup-notifier-client-spring-boot-autoconfigure/src/main/java/org/meetup/notifier/auto/configure/configuration/builder/UriBuilder.java" />
-        <option value="$PROJECT_DIR$/meetup-notifier-client-spring-boot-autoconfigure/src/main/java/org/meetup/notifier/auto/configure/configuration/builder/HttpUriBuilder.java" />
-        <option value="$PROJECT_DIR$/meetup-notifier-client-spring-boot-autoconfigure/src/main/java/org/meetup/notifier/auto/configure/configuration/builder/MeetupServiceBuilder.java" />
         <option value="$PROJECT_DIR$/meetup-notifier/src/main/java/org/meetup/notifier/configuration/ElasticSearchConfigurationProperties.java" />
         <option value="$PROJECT_DIR$/meetup-notifier/src/main/java/org/meetup/notifier/data/elasticsearch/document/MeetupUpcomingEvents.java" />
         <option value="$PROJECT_DIR$/meetup-notifier/src/main/java/org/meetup/notifier/data/elasticsearch/repository/MeetupUpcomingEventsRepository.java" />
         <option value="$PROJECT_DIR$/meetup-notifier/src/main/java/org/meetup/notifier/configuration/ApplicationConfiguration.java" />
         <option value="$MAVEN_REPOSITORY$/org/meetup/notifier/client/starter/meetup-notifier-client-starter/0.0.1-SNAPSHOT/meetup-notifier-client-starter-0.0.1-SNAPSHOT.pom" />
         <option value="$PROJECT_DIR$/meetup-notifier-client-spring-boot-starter/pom.xml" />
-        <option value="$PROJECT_DIR$/meetup-notifier-client-spring-boot-autoconfigure/pom.xml" />
         <option value="$PROJECT_DIR$/meetup-notifier-client-spring-boot-autoconfigure/src/main/java/org/meetup/notifier/auto/configure/configuration/MeetupApiConfiguration.java" />
         <option value="$PROJECT_DIR$/meetup-notifier/src/main/java/org/meetup/notifier/data/elasticsearch/document/UpcomingEventsIndex.java" />
         <option value="$PROJECT_DIR$/meetup-notifier/src/main/java/org/meetup/notifier/data/elasticsearch/repository/UpcomingEventsIndexRepository.java" />
@@ -123,21 +156,13 @@
         <option value="$PROJECT_DIR$/meetup-notifier/src/main/java/org/meetup/notifier/data/h2/mapper/EventEntityMapper.java" />
         <option value="$PROJECT_DIR$/meetup-notifier/src/main/java/org/meetup/notifier/data/redis/document/Group.java" />
         <option value="$PROJECT_DIR$/meetup-notifier/src/main/java/org/meetup/notifier/data/redis/document/Venue.java" />
-        <option value="$PROJECT_DIR$/meetup-notifier/src/main/java/org/meetup/notifier/data/redis/document/Event.java" />
         <option value="$PROJECT_DIR$/meetup-notifier/src/main/java/org/meetup/notifier/data/redis/mapper/EventMapper.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/meetup-notifier/pom.xml" />
-        <option value="$PROJECT_DIR$/meetup-notifier/src/main/java/org/meetup/notifier/configuration/ElasticSearchConfiguration.java" />
         <option value="$PROJECT_DIR$/meetup-notifier/src/main/java/org/meetup/notifier/configuration/RedisConfigurationProperties.java" />
         <option value="$PROJECT_DIR$/meetup-notifier/src/test/java/org/meetup/notifier/App.java" />
         <option value="$PROJECT_DIR$/meetup-notifier-client-spring-boot-autoconfigure/src/main/java/org/meetup/notifier/auto/configure/configuration/MeetupApiAutoConfiguration.java" />
         <option value="$PROJECT_DIR$/meetup-notifier/src/test/resources/application-test.properties" />
-        <option value="$PROJECT_DIR$/meetup-notifier/src/main/java/org/meetup/notifier/configuration/RedisConfiguration.java" />
-        <option value="$PROJECT_DIR$/meetup-notifier/src/main/java/org/meetup/notifier/MeetupNotifierApplication.java" />
         <option value="$PROJECT_DIR$/meetup-notifier/src/main/resources/application-cloud.properties" />
         <option value="$PROJECT_DIR$/meetup-notifier-client/src/main/java/org/meetup/notifier/client/service/RemoteMeetupApiService.java" />
-        <option value="$PROJECT_DIR$/meetup-notifier/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/meetup-notifier/src/test/java/org/meetup/notifier/RedisIntegrationTest.java" />
         <option value="$PROJECT_DIR$/meetup-notifier/src/test/java/org/meetup/notifier/MeetupServiceAutoConfigurationTest.java" />
         <option value="$PROJECT_DIR$/meetup-notifier-client/src/test/java/org/meetup/notifier/client/TestApplication.java" />
         <option value="$PROJECT_DIR$/meetup-notifier-client/src/test/java/org/meetup/notifier/client/MeetupNotifierClientApplicationTests.java" />
@@ -147,6 +172,19 @@
         <option value="$PROJECT_DIR$/meetup-notifier/src/test/java/org/meetup/notifier/MeetupServiceRestClientTest.java" />
         <option value="$PROJECT_DIR$/meetup-notifier/src/main/java/org/meetup/notifier/scheduler/UpdateRedisCacheWithUpcomingEventScheduleJob.java" />
         <option value="$PROJECT_DIR$/meetup-notifier/src/main/java/org/meetup/notifier/configuration/SchedulerConfigurationSupport.java" />
+        <option value="$PROJECT_DIR$/meetup-notifier/src/test/java/org/meetup/notifier/RedisIntegrationTest.java" />
+        <option value="$PROJECT_DIR$/meetup-notifier/src/main/java/org/meetup/notifier/MeetupNotifierApplication.java" />
+        <option value="$PROJECT_DIR$/meetup-notifier/pom.xml" />
+        <option value="$PROJECT_DIR$/meetup-notifier/src/main/java/org/meetup/notifier/configuration/ElasticSearchConfiguration.java" />
+        <option value="$PROJECT_DIR$/meetup-notifier/src/main/java/org/meetup/notifier/configuration/RedisConfiguration.java" />
+        <option value="$PROJECT_DIR$/meetup-notifier-client-spring-boot-autoconfigure/pom.xml" />
+        <option value="$PROJECT_DIR$/meetup-notifier/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/meetup-notifier/src/test/java/org/meetup/notifier/integration/ElasticsearchIntegrationTest.java" />
+        <option value="$PROJECT_DIR$/meetup-notifier/src/main/java/org/meetup/notifier/data/redis/document/Event.java" />
+        <option value="$PROJECT_DIR$/meetup-notifier/src/main/java/org/meetup/notifier/data/redis/repository/EventRepository.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/meetup-notifier/src/test/java/org/meetup/notifier/integration/RedisIntegrationTest.java" />
+        <option value="$PROJECT_DIR$/meetup-notifier/src/test/java/org/meetup/notifier/restclient/MeetupServiceRestClientTest.java" />
       </list>
     </option>
   </component>
@@ -179,6 +217,9 @@
       <select />
     </treeState>
   </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
@@ -187,6 +228,7 @@
     <option name="width" value="1401" />
     <option name="height" value="877" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -198,6 +240,128 @@
             <path>
               <item name="meetup-notifier-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="meetup-notifier-parent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="meetup-notifier-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="meetup-notifier-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="meetup-notifier" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="meetup-notifier-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="meetup-notifier-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="meetup-notifier" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="meetup-notifier-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="meetup-notifier-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="meetup-notifier" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="meetup-notifier-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="meetup-notifier-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="meetup-notifier" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="meetup-notifier-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="meetup-notifier-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="meetup-notifier" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="notifier" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="meetup-notifier-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="meetup-notifier-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="meetup-notifier" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="notifier" type="462c0819:PsiDirectoryNode" />
+              <item name="configuration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="meetup-notifier-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="meetup-notifier-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="meetup-notifier" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="notifier" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="meetup-notifier-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="meetup-notifier-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="meetup-notifier" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="notifier" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="meetup-notifier-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="meetup-notifier-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="meetup-notifier" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="meetup-notifier-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="meetup-notifier-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="meetup-notifier" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="meetup-notifier-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="meetup-notifier-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="meetup-notifier" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="meetup-notifier-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="meetup-notifier-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="meetup-notifier" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="notifier" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="meetup-notifier-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="meetup-notifier-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="meetup-notifier" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="notifier" type="462c0819:PsiDirectoryNode" />
+              <item name="integration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="meetup-notifier-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="meetup-notifier-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="meetup-notifier" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="notifier" type="462c0819:PsiDirectoryNode" />
+              <item name="restclient" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="meetup-notifier-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -221,7 +385,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.5954023" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
@@ -262,114 +426,22 @@
     </option>
     <option name="contentProportion" value="0.25188538" />
   </component>
-  <component name="RunManager" selected="JUnit.MeetupServiceRestClientTest.findUpComingEventsWhenResultIsSuccessShouldReturnSchedule">
+  <component name="RunManager" selected="JUnit.RedisIntegrationTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="MeetupServiceAutoConfigurationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="meetup-notifier" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.meetup.notifier.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="org.meetup.notifier" />
-      <option name="MAIN_CLASS_NAME" value="org.meetup.notifier.MeetupServiceAutoConfigurationTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="MeetupServiceRestClientTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="meetup-notifier" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.meetup.notifier.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="org.meetup.notifier.client" />
-      <option name="MAIN_CLASS_NAME" value="org.meetup.notifier.client.MeetupServiceRestClientTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="MeetupServiceRestClientTest.findUpComingEventsWhenResultIsSuccessShouldReturnSchedule" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="meetup-notifier" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.meetup.notifier.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="org.meetup.notifier" />
-      <option name="MAIN_CLASS_NAME" value="org.meetup.notifier.MeetupServiceRestClientTest" />
-      <option name="METHOD_NAME" value="findUpComingEventsWhenResultIsSuccessShouldReturnSchedule" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="MeetupServiceRestClientTest.x" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="meetup-notifier" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.meetup.notifier.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="org.meetup.notifier.client" />
-      <option name="MAIN_CLASS_NAME" value="org.meetup.notifier.client.MeetupServiceRestClientTest" />
-      <option name="METHOD_NAME" value="x" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="RedisIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="meetup-notifier" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.meetup.notifier.*" />
+          <option name="PATTERN" value="org.meetup.notifier.integration.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="org.meetup.notifier" />
-      <option name="MAIN_CLASS_NAME" value="org.meetup.notifier.RedisIntegrationTest" />
+      <option name="PACKAGE_NAME" value="org.meetup.notifier.integration" />
+      <option name="MAIN_CLASS_NAME" value="org.meetup.notifier.integration.RedisIntegrationTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -426,17 +498,9 @@
     <list>
       <item itemvalue="Spring Boot.MeetupNotifierApplication" />
       <item itemvalue="JUnit.RedisIntegrationTest" />
-      <item itemvalue="JUnit.MeetupServiceAutoConfigurationTest" />
-      <item itemvalue="JUnit.MeetupServiceRestClientTest.x" />
-      <item itemvalue="JUnit.MeetupServiceRestClientTest" />
-      <item itemvalue="JUnit.MeetupServiceRestClientTest.findUpComingEventsWhenResultIsSuccessShouldReturnSchedule" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MeetupServiceRestClientTest.findUpComingEventsWhenResultIsSuccessShouldReturnSchedule" />
-        <item itemvalue="JUnit.MeetupServiceRestClientTest" />
-        <item itemvalue="JUnit.MeetupServiceRestClientTest.x" />
-        <item itemvalue="JUnit.MeetupServiceAutoConfigurationTest" />
         <item itemvalue="JUnit.RedisIntegrationTest" />
       </list>
     </recent_temporary>
@@ -454,47 +518,48 @@
       <workItem from="1527855110371" duration="12223000" />
       <workItem from="1528103252620" duration="13438000" />
       <workItem from="1528190612368" duration="11965000" />
-      <workItem from="1528275391368" duration="672000" />
+      <workItem from="1528275391368" duration="10017000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RedisIntegrationTest - 2018.06.06 at 10h 28m 26s.xml">
+    <history-entry file="RedisIntegrationTest_shouldRedisConfigurationSuccesfullyConfigured - 2018.06.06 at 15h 55m 07s.xml">
+      <configuration name="RedisIntegrationTest.shouldRedisConfigurationSuccesfullyConfigured" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ElasticsearchIntegrationTest_shouldElasticSearchConfigurationSuccesfullyConfigured - 2018.06.06 at 15h 56m 20s.xml">
+      <configuration name="ElasticsearchIntegrationTest.shouldElasticSearchConfigurationSuccesfullyConfigured" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ElasticsearchIntegrationTest_shouldElasticSearchConfigurationSuccesfullyConfigured - 2018.06.06 at 15h 59m 46s.xml">
+      <configuration name="ElasticsearchIntegrationTest.shouldElasticSearchConfigurationSuccesfullyConfigured" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ElasticsearchIntegrationTest_shouldElasticSearchConfigurationSuccesfullyConfigured - 2018.06.06 at 16h 00m 27s.xml">
+      <configuration name="ElasticsearchIntegrationTest.shouldElasticSearchConfigurationSuccesfullyConfigured" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ElasticsearchIntegrationTest_shouldElasticSearchConfigurationSuccesfullyConfigured - 2018.06.06 at 16h 02m 53s.xml">
+      <configuration name="ElasticsearchIntegrationTest.shouldElasticSearchConfigurationSuccesfullyConfigured" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ElasticsearchIntegrationTest_shouldElasticSearchConfigurationSuccesfullyConfigured - 2018.06.06 at 16h 22m 34s.xml">
+      <configuration name="ElasticsearchIntegrationTest.shouldElasticSearchConfigurationSuccesfullyConfigured" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ElasticsearchIntegrationTest_shouldElasticSearchConfigurationSuccesfullyConfigured - 2018.06.06 at 16h 22m 42s.xml">
+      <configuration name="ElasticsearchIntegrationTest.shouldElasticSearchConfigurationSuccesfullyConfigured" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ElasticsearchIntegrationTest_shouldElasticSearchConfigurationSuccesfullyConfigured - 2018.06.06 at 16h 23m 30s.xml">
+      <configuration name="ElasticsearchIntegrationTest.shouldElasticSearchConfigurationSuccesfullyConfigured" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ElasticsearchIntegrationTest_shouldElasticSearchConfigurationSuccesfullyConfigured - 2018.06.06 at 16h 30m 55s.xml">
+      <configuration name="ElasticsearchIntegrationTest.shouldElasticSearchConfigurationSuccesfullyConfigured" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RedisIntegrationTest - 2018.06.07 at 09h 54m 02s.xml">
       <configuration name="RedisIntegrationTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RedisIntegrationTest - 2018.06.06 at 10h 29m 30s.xml">
-      <configuration name="RedisIntegrationTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RedisIntegrationTest - 2018.06.06 at 10h 30m 31s.xml">
-      <configuration name="RedisIntegrationTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MeetupServiceAutoConfigurationTest - 2018.06.06 at 10h 34m 01s.xml">
-      <configuration name="MeetupServiceAutoConfigurationTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MeetupServiceAutoConfigurationTest - 2018.06.06 at 10h 34m 09s.xml">
-      <configuration name="MeetupServiceAutoConfigurationTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MeetupServiceRestClientTest_x - 2018.06.06 at 11h 40m 08s.xml">
-      <configuration name="MeetupServiceRestClientTest.x" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MeetupServiceRestClientTest_x - 2018.06.06 at 11h 41m 01s.xml">
-      <configuration name="MeetupServiceRestClientTest.x" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MeetupServiceRestClientTest - 2018.06.06 at 11h 44m 05s.xml">
-      <configuration name="MeetupServiceRestClientTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MeetupServiceRestClientTest - 2018.06.06 at 11h 45m 02s.xml">
-      <configuration name="MeetupServiceRestClientTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MeetupServiceRestClientTest_findUpComingEventsWhenResultIsSuccessShouldReturnSchedule - 2018.06.06 at 11h 59m 04s.xml">
-      <configuration name="MeetupServiceRestClientTest.findUpComingEventsWhenResultIsSuccessShouldReturnSchedule" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38298000" />
+    <option name="totallyTimeSpent" value="47643000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1400" height="877" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="6" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
@@ -507,7 +572,7 @@
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="12" weight="0.33246073" />
+      <window_info anchor="bottom" id="Debug" order="12" weight="0.55890054" />
       <window_info anchor="bottom" id="TODO" order="15" />
       <window_info anchor="bottom" id="Messages" order="3" weight="0.32984293" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
@@ -515,59 +580,59 @@
       <window_info anchor="bottom" id="Java Enterprise" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="bottom" id="Run Dashboard" order="7" weight="0.84947646" />
-      <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="6" />
       <window_info anchor="bottom" id="Run" order="10" weight="0.60471207" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32964602" />
       <window_info anchor="bottom" id="Spring" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32984293" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.39896756" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.4982699" visible="true" weight="0.30752212" />
       <window_info anchor="right" id="Bean Validation" order="5" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Favorites" order="3" sideWeight="0.5017301" side_tool="true" weight="0.30752212" />
       <window_info anchor="right" id="Commander" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32964602" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.2501845" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.32984293" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="bottom" id="Run Dashboard" order="7" weight="0.84947646" />
       <window_info id="Designer" order="0" />
-      <window_info anchor="right" id="Palette" order="7" />
+      <window_info anchor="right" id="Palette" order="6" />
       <window_info anchor="bottom" id="Spring" order="0" />
       <window_info id="Image Layers" order="1" />
       <window_info anchor="bottom" id="Run" order="10" weight="0.60471207" />
       <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="9" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="UI Designer" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Favorites" order="3" sideWeight="0.5017301" side_tool="true" weight="0.30752212" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32984293" />
       <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
-      <window_info anchor="right" id="Capture Analysis" order="2" />
-      <window_info anchor="right" id="Commander" order="8" weight="0.4" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Commander" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="3" weight="0.32984293" />
       <window_info anchor="bottom" id="TODO" order="15" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="10" weight="0.2501845" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.2501845" />
       <window_info anchor="bottom" id="Java Enterprise" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
-      <window_info anchor="right" id="Maven Projects" order="1" weight="0.3281711" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.39233038" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="0" weight="0.3281711" />
+      <window_info anchor="bottom" id="Find" order="9" weight="0.32984293" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.4982699" visible="true" weight="0.30752212" />
+      <window_info anchor="right" id="Database" order="2" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info id="Web" order="4" side_tool="true" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
-      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.32964602" />
-      <window_info anchor="bottom" id="Find" order="9" weight="0.32984293" />
-      <window_info anchor="right" id="Bean Validation" order="6" />
-      <window_info active="true" anchor="bottom" id="Debug" order="12" visible="true" weight="0.33246073" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32964602" />
+      <window_info active="true" anchor="bottom" id="Debug" order="12" visible="true" weight="0.55890054" />
+      <window_info anchor="right" id="Bean Validation" order="5" />
+      <window_info anchor="bottom" id="Run Dashboard" order="7" weight="0.84947646" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -592,20 +657,8 @@
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/meetup-notifier/src/test/java/org/meetup/notifier/RedisIntegrationTest.java</url>
-          <line>45</line>
-          <properties />
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/meetup-notifier/src/test/java/org/meetup/notifier/RedisIntegrationTest.java</url>
-          <line>62</line>
-          <properties />
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/meetup-notifier/src/test/java/org/meetup/notifier/RedisIntegrationTest.java</url>
-          <line>76</line>
+          <url>file://$PROJECT_DIR$/meetup-notifier/src/test/java/org/meetup/notifier/integration/RedisIntegrationTest.java</url>
+          <line>59</line>
           <properties />
           <option name="timeStamp" value="34" />
         </line-breakpoint>
@@ -616,310 +669,84 @@
           <option name="timeStamp" value="37" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/meetup-notifier/src/test/java/org/meetup/notifier/MeetupServiceRestClientTest.java</url>
+          <url>file://$PROJECT_DIR$/meetup-notifier/src/test/java/org/meetup/notifier/restclient/MeetupServiceRestClientTest.java</url>
           <line>56</line>
           <properties />
           <option name="timeStamp" value="42" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/meetup-notifier/src/test/java/org/meetup/notifier/integration/RedisIntegrationTest.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/meetup-notifier/src/test/java/org/meetup/notifier/integration/RedisIntegrationTest.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/meetup-notifier/src/test/java/org/meetup/notifier/integration/RedisIntegrationTest.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="43" />
+      <option name="time" value="70" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>context.getBean(MeetupService.class)</expression-string>
+        <expression-string>elasticSearch.getContainerIpAddress()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>body</expression-string>
+        <expression-string>environment.getProperty(&quot;spring.data.elasticsearch.cluster-name&quot;)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>response.getBody()</expression-string>
+        <expression-string>envr</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>environment.getProperty(&quot;spring.data.elasticsearch.cluster-nodes&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>elasticSearch.getMappedPort(9200)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>environment.getProperty(&quot;spring.redis.port&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>redis.getMappedPort(6379)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>envi</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>elasticSearch.getContainerIpAddress()
+                            + &quot;:&quot; + elasticSearch.getMappedPort(9200)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/meetup-notifier/src/main/java/org/meetup/notifier/data/redis/mapper/EventMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/meetup-notifier/src/main/java/org/meetup/notifier/data/redis/document/Group.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="12" selection-start-line="10" selection-end-line="13" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/meetup-notifier/src/main/java/org/meetup/notifier/data/redis/document/Venue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.0.0.RELEASE/spring-boot-2.0.0.RELEASE-sources.jar!/org/springframework/boot/SpringApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="792" selection-start-line="792" selection-end-line="792" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-dependencies/2.0.0.RELEASE/spring-boot-dependencies-2.0.0.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="360" column="16" selection-start-line="360" selection-start-column="16" selection-end-line="360" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/lettuce/lettuce-core/5.0.2.RELEASE/lettuce-core-5.0.2.RELEASE.jar!/io/lettuce/core/resource/ClientResources.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.0.5.RELEASE/spring-data-redis-2.0.5.RELEASE.jar!/org/springframework/data/redis/connection/lettuce/LettuceConnectionFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="88" column="16" selection-start-line="88" selection-start-column="16" selection-end-line="88" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.0.5.RELEASE/spring-data-redis-2.0.5.RELEASE-sources.jar!/org/springframework/data/redis/connection/lettuce/LettuceConnectionFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="108" column="11" selection-start-line="108" selection-start-column="11" selection-end-line="108" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="26" column="60" selection-start-line="26" selection-start-column="60" selection-end-line="26" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/meetup-notifier/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.0.4.RELEASE/spring-test-5.0.4.RELEASE.jar!/org/springframework/test/context/TestPropertySource.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/meetup-notifier/src/main/java/org/meetup/notifier/data/redis/document/Event.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/meetup-notifier/src/test/java/org/meetup/notifier/MeetupNotifierApplicationTests.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.0.RELEASE/spring-boot-autoconfigure-2.0.0.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/meetup-notifier/src/test/java/org/meetup/notifier/App.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-test/2.0.0.RELEASE/spring-boot-test-2.0.0.RELEASE.jar!/org/springframework/boot/test/context/SpringBootTest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/meetup-notifier-client-spring-boot-autoconfigure/src/main/java/org/meetup/notifier/auto/configure/configuration/RemoteMeetupApiConfigurationProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/meetup-notifier/src/main/java/org/meetup/notifier/MeetupNotifierApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/meetup-notifier/src/main/java/org/meetup/notifier/configuration/RedisConfigurationProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/meetup-notifier/src/main/java/org/meetup/notifier/configuration/ElasticSearchConfigurationProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/meetup-notifier/src/main/resources/application-cloud.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/meetup-notifier/src/main/java/org/meetup/notifier/data/redis/repository/EventRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/util/Optional.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="53" column="37" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/meetup-notifier/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/meetup-notifier/src/main/java/org/meetup/notifier/configuration/RedisConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/meetup-notifier/src/main/java/org/meetup/notifier/configuration/ElasticSearchConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="9" column="62" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.0.5.RELEASE/spring-data-redis-2.0.5.RELEASE-sources.jar!/org/springframework/data/redis/core/HashOperations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="121" column="9" selection-start-line="121" selection-start-column="9" selection-end-line="121" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/meetup-notifier-client-spring-boot-autoconfigure/src/main/java/org/meetup/notifier/auto/configure/configuration/MeetupApiAutoConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/meetup-notifier/src/test/java/org/meetup/notifier/MeetupServiceAutoConfigurationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/meetup-notifier/src/test/java/org/meetup/notifier/RedisIntegrationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1095">
-          <caret line="76" selection-start-line="76" selection-end-line="76" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/meetup-notifier-client/src/test/java/org/meetup/notifier/client/TestApplication.java" />
-    <entry file="file://$PROJECT_DIR$/meetup-notifier-client/src/test/java/org/meetup/notifier/client/MeetupNotifierClientApplicationTests.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.0.4.RELEASE/spring-test-5.0.4.RELEASE.jar!/org/springframework/test/web/client/ResponseActions.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.0.4.RELEASE/spring-test-5.0.4.RELEASE-sources.jar!/org/springframework/test/web/client/RequestMatcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.0.4.RELEASE/spring-test-5.0.4.RELEASE-sources.jar!/org/springframework/test/web/client/DefaultRequestExpectation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="71" column="44" selection-start-line="71" selection-start-column="44" selection-end-line="71" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.0.4.RELEASE/spring-test-5.0.4.RELEASE-sources.jar!/org/springframework/test/web/client/ResponseActions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.4.RELEASE/spring-core-5.0.4.RELEASE-sources.jar!/org/springframework/core/io/Resource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="51" column="17" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.4.RELEASE/spring-web-5.0.4.RELEASE-sources.jar!/org/springframework/http/MediaType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -979,16 +806,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/meetup-notifier/src/test/java/org/meetup/notifier/MeetupServiceRestClientTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/meetup-notifier/src/test/resources/application-test.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1016,10 +833,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/meetup-notifier/src/main/java/org/meetup/notifier/data/elasticsearch/document/EventIndex.java">
+    <entry file="file://$PROJECT_DIR$/meetup-notifier/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meetup-notifier/src/test/java/org/meetup/notifier/autoconfigure/MeetupServiceAutoConfigurationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        <state relative-caret-position="259">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1027,6 +850,282 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.0.5.RELEASE/spring-data-redis-2.0.5.RELEASE-sources.jar!/org/springframework/data/redis/connection/jedis/JedisClientConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="56" column="17" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.0.5.RELEASE/spring-data-redis-2.0.5.RELEASE-sources.jar!/org/springframework/data/redis/connection/jedis/JedisConnectionFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-47">
+          <caret line="915" column="17" selection-start-line="915" selection-start-column="17" selection-end-line="915" selection-end-column="17" />
+          <folding>
+            <element signature="e#4898#4899#0" expanded="true" />
+            <element signature="e#4948#4949#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.0.5.RELEASE/spring-data-redis-2.0.5.RELEASE-sources.jar!/org/springframework/data/redis/connection/lettuce/LettuceClientConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meetup-notifier/src/main/java/org/meetup/notifier/MeetupNotifierApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-data-redis/2.0.0.RELEASE/spring-boot-starter-data-redis-2.0.0.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-758" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meetup-notifier/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meetup-notifier/src/main/java/org/meetup/notifier/configuration/ElasticSearchConfigurationProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meetup-notifier/src/main/java/org/meetup/notifier/configuration/ElasticSearchConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meetup-notifier-client-spring-boot-autoconfigure/target/classes/org/meetup/notifier/auto/configure/configuration/RemoteMeetupApiConfigurationProperties.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meetup-notifier-client-spring-boot-autoconfigure/target/classes/META-INF/spring.factories">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meetup-notifier-client-spring-boot-autoconfigure/src/main/java/org/meetup/notifier/auto/configure/configuration/MeetupApiAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="38" column="75" selection-start-line="38" selection-start-column="75" selection-end-line="38" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meetup-notifier-client-spring-boot-autoconfigure/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meetup-notifier-client-spring-boot-autoconfigure/target/classes/META-INF/spring-configuration-metadata.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-82" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meetup-notifier-client-spring-boot-autoconfigure/src/main/java/org/meetup/notifier/auto/configure/configuration/RemoteMeetupApiConfigurationProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meetup-notifier/src/main/java/org/meetup/notifier/data/elasticsearch/document/EventIndex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.0.4.RELEASE/spring-test-5.0.4.RELEASE-sources.jar!/org/springframework/test/context/junit4/statements/RunAfterTestExecutionCallbacks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meetup-notifier/src/main/resources/application-cloud.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testcontainers/testcontainers/1.7.3/testcontainers-1.7.3.jar!/org/testcontainers/containers/FixedHostPortGenericContainer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testcontainers/testcontainers/1.7.3/testcontainers-1.7.3.jar!/org/testcontainers/containers/GenericContainer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testcontainers/testcontainers/1.7.3/testcontainers-1.7.3-sources.jar!/org/testcontainers/containers/FixedHostPortGenericContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="13" column="105" selection-start-line="13" selection-start-column="105" selection-end-line="13" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testcontainers/testcontainers/1.7.3/testcontainers-1.7.3-sources.jar!/org/testcontainers/containers/VncRecordingSidekickContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testcontainers/testcontainers/1.7.3/testcontainers-1.7.3-sources.jar!/org/testcontainers/containers/GenericContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5961">
+          <caret line="68" column="13" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testcontainers/testcontainers/1.7.3/testcontainers-1.7.3-sources.jar!/org/testcontainers/containers/Container.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2220">
+          <caret line="137" column="9" selection-start-line="137" selection-start-column="9" selection-end-line="137" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="9" column="62" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.0.5.RELEASE/spring-data-redis-2.0.5.RELEASE-sources.jar!/org/springframework/data/redis/core/index/Indexed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meetup-notifier/src/main/java/org/meetup/notifier/data/redis/document/Event.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meetup-notifier/src/main/java/org/meetup/notifier/configuration/RedisConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meetup-notifier/src/main/java/org/meetup/notifier/data/redis/repository/EventRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meetup-notifier/src/main/java/org/meetup/notifier/data/redis/mapper/EventMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meetup-notifier/src/test/java/org/meetup/notifier/integration/ElasticsearchIntegrationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-dependencies/2.0.0.RELEASE/spring-boot-dependencies-2.0.0.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="587">
+          <caret line="245" column="44" selection-start-line="245" selection-start-column="44" selection-end-line="245" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-parent/2.0.0.RELEASE/spring-boot-starter-parent-2.0.0.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.0.0.RELEASE/spring-boot-2.0.0.RELEASE-sources.jar!/org/springframework/boot/SpringApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="626" selection-start-line="626" selection-end-line="626" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.0.4.RELEASE/spring-test-5.0.4.RELEASE-sources.jar!/org/springframework/test/context/ContextConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1624">
+          <caret line="89" column="18" selection-start-line="89" selection-start-column="18" selection-end-line="89" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meetup-notifier/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meetup-notifier/src/test/java/org/meetup/notifier/integration/RedisIntegrationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-210">
+          <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meetup-notifier/src/test/java/org/meetup/notifier/restclient/MeetupServiceRestClientTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="46" column="4" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1086,7 +1185,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.5954023" />
                 <option value="0.6" />
               </list>
             </option>

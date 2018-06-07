@@ -7,6 +7,7 @@ import org.meetup.notifier.client.dto.Status;
 import org.meetup.notifier.client.dto.Visibility;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.redis.core.RedisHash;
+import org.springframework.data.redis.core.index.Indexed;
 
 import java.io.Serializable;
 import java.util.Objects;
@@ -24,6 +25,7 @@ public class Event implements Serializable {
     private String id;
     private Long created;
     private Long duration;
+    @Indexed
     private String name;
     private int reservationLimit;
     private Status status;
