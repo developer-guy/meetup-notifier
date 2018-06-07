@@ -1,2 +1,0 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-  org.meetup.notifier.auto.configure.configuration.MeetupApiAutoConfiguration
