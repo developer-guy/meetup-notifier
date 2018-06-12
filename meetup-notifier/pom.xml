@@ -47,6 +47,11 @@
         </dependency>
 
         <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-mongodb</artifactId>
+        </dependency>
+
+        <dependency>
             <groupId>org.meetup.notifier.client.starter</groupId>
             <artifactId>meetup-notifier-client-spring-boot-starter</artifactId>
             <version>${meetup-notifier-client-spring-boot-starter.version}</version>
