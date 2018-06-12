@@ -4,7 +4,6 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.data.annotation.Id;
-import org.springframework.data.mongodb.core.index.Indexed;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.util.Objects;
@@ -20,9 +19,8 @@ import java.util.Objects;
 public class Keyword {
 
     @Id
-    private Long id;
+    private long id;
 
-    @Indexed(unique = true)
     private String token;
 
     private String keyword;
@@ -32,7 +30,7 @@ public class Keyword {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Keyword keyword1 = (Keyword) o;
-        return getId().equals(keyword1.getId()) &&
+        return getId() == (keyword1.getId()) &&
                 Objects.equals(getToken(), keyword1.getToken()) &&
                 Objects.equals(getKeyword(), keyword1.getKeyword());
     }
